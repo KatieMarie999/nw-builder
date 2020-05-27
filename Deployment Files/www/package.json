@@ -1,0 +1,23 @@
+{
+  "name": "GlitchMV",
+  "main": "index.html",
+  "version": "1.0.0",
+  "js-flags": "--expose-gc",
+  "chromium-args": "--force-color-profile=srgb",
+  "window": {
+    "title": "",
+    "toolbar": false,
+    "width": 960,
+    "height": 720,
+    "icon": "icon/icon.png"
+  },
+  "dependencies": {
+    "blob-util": "^2.0.2",
+    "bson": "^4.0.4",
+    "crypto-js": "^4.0.0",
+    "lz-string": "^1.4.4",
+    "pixi-sound": "^3.0.4",
+    "pixi.js": "^5.2.4",
+    "wallpaper": "^4.4.1"
+  }
+}

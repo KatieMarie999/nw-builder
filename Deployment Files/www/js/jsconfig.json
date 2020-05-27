@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6"
+  },
+  "files": [
+    "./definitions/rmmv-pixi.d.ts",
+    "./definitions/VE_BasicModule.d.ts"
+  ],
+  "include": [
+    "./*",
+    "./plugins_dev/*.js",
+    "./plugins/*.js"
+  ]
+}

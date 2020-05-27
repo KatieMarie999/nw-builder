@@ -1,0 +1,361 @@
+   /*
+    Window_Selectable.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_Selectable.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_Command.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_Command.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_HorzCommand.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_HorzCommand.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_Help.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_Help.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_Gold.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_Gold.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_MenuCommand.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_MenuCommand.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_MenuStatus.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_MenuStatus.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_MenuActor.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_MenuActor.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ItemCategory.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ItemCategory.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ItemList.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ItemList.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_SkillType.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_SkillType.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_SkillStatus.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_SkillStatus.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_SkillList.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_SkillList.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_EquipStatus.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_EquipStatus.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_EquipCommand.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_EquipCommand.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_EquipSlot.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_EquipSlot.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_EquipItem.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_EquipItem.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_Status.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_Status.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_Options.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_Options.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_SavefileList.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_SavefileList.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ShopCommand.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ShopCommand.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ShopBuy.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ShopBuy.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ShopSell.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ShopSell.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ShopNumber.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ShopNumber.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ShopStatus.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ShopStatus.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_NameEdit.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_NameEdit.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_NameInput.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_NameInput.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ChoiceList.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ChoiceList.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_NumberInput.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_NumberInput.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_EventItem.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_EventItem.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_Message.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_Message.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ScrollText.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ScrollText.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_MapName.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_MapName.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_BattleLog.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_BattleLog.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_PartyCommand.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_PartyCommand.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_ActorCommand.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_ActorCommand.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_BattleStatus.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_BattleStatus.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_BattleActor.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_BattleActor.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_BattleEnemy.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_BattleEnemy.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize();
+    };
+
+    Window_BattleSkill.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont();
+    };
+
+    Window_BattleSkill.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize()
+    }
+
+    Window_BattleItem.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont()
+    }
+
+    Window_BattleItem.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize()
+    }
+
+    Window_TitleCommand.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont()
+    }
+
+    Window_TitleCommand.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize()
+    }
+
+    Window_GameEnd.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont()
+    }
+
+    Window_GameEnd.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize()
+    }
+
+    Window_DebugRange.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont()
+    }
+
+    Window_DebugRange.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize()
+    }
+
+    Window_DebugEdit.prototype.standardFontFace = function () {
+      return $gameDvLyon.getSaveFont()
+    }
+
+    Window_DebugEdit.prototype.standardFontSize = function () {
+      return $gameDvLyon.getSaveFontSize()
+    }
+    */

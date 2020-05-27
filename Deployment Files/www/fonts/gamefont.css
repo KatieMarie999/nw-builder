@@ -1,0 +1,121 @@
+@font-face {
+	font-family: GameFont;
+	src: url("mplus-1m-regular.ttf");
+}
+
+@font-face {
+	font-family: Glitch;
+	src: url("Glitch.ttf");
+}
+
+@font-face {
+	font-family: DvLyon;
+	src: url("ratio___.ttf");
+}
+
+@font-face {
+	font-family: Fiery_Turk;
+	src: url("Fiery_Turk.ttf");
+}
+
+@font-face {
+	font-family: Font1;
+	src: url("Font1.ttf");
+}
+
+@font-face {
+	font-family: Font2;
+	src: url("Font2.ttf");
+}
+
+@font-face {
+	font-family: Font3;
+	src: url("Font3.ttf");
+}
+
+@font-face {
+	font-family: Font4;
+	src: url("Font4.ttf");
+}
+
+@font-face {
+	font-family: Font5;
+	src: url("Font5.ttf");
+}
+
+@font-face {
+	font-family: Font6;
+	src: url("Font6.ttf");
+}
+
+@font-face {
+	font-family: Font7;
+	src: url("Font7.ttf");
+}
+
+@font-face {
+	font-family: Font8;
+	src: url("Font8.ttf");
+}
+
+@font-face {
+	font-family: Font9;
+	src: url("Font9.ttf");
+}
+
+@font-face {
+	font-family: Ammys_Handwriting;
+	src: url("Ammys Handwriting.ttf");
+}
+
+@font-face {
+	font-family: arial;
+	src: url("arial.ttf");
+}
+
+@font-face {
+	font-family: calibri;
+	src: url("calibri.ttf");
+}
+
+@font-face {
+	font-family: Crayawn;
+	src: url("Crayawn.ttf");
+}
+
+@font-face {
+	font-family: JOURNAL;
+	src: url("JOURNAL.ttf");
+}
+
+@font-face {
+	font-family: JPHSL;
+	src: url("JPHSL.ttf");
+}
+
+@font-face {
+	font-family: Rio_Oro;
+	src: url("Rio Oro.otf");
+}
+
+@font-face {
+	font-family: verdana;
+	src: url("verdana.ttf");
+}
+
+@font-face {
+	font-family: VL-Gothic-Regular;
+	src: url("VL-Gothic-Regular.ttf");
+}
+
+@font-face {
+	font-family: VL-PGothic-Regular;
+	src: url("VL-PGothic-Regular.ttf");
+}
+
+.IIV::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+	opacity: 0;
+	pointer-events: none;
+	width: 5px;
+}
